@@ -1,5 +1,11 @@
-.description {
+.container {
   height: 100%;
+  display: flex;
+}
+
+.descriptionSection {
+  height: 100%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -25,4 +31,19 @@
 .aboutText {
   font-size: 5rem;
   font-weight: 300;
+}
+
+.linksList {
+  gap: 2rem;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.linksSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,0 +1,15 @@
+.container {
+  padding: 0 2rem;
+  height: 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 4rem;
+  font-weight: 200;
+  background: rgba(0, 114, 177, 0.5);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  border: 1px solid rgba(0, 114, 177, 1);
+}
